@@ -1,0 +1,4 @@
+systemctl disable --now v4 ; rm -rf /opt/v4 ; rm -f /etc/systemd/system/v4.service
+systemctl disable --now v6 ; rm -rf /opt/v6 ; rm -f /etc/systemd/system/v6.service
+systemctl disable --now BANANALINK ; rm -rf /opt/BANANALINK ; rm -f /etc/systemd/system/BANANALINK.service
+systemctl disable --now v6 ; rm -rf /opt/v6 ; rm -f /etc/systemd/system/v6.service
